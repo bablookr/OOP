@@ -7,10 +7,10 @@ class Graph{
     int n;
     vector<int> *adj;
 
-    public:
-        Graph(int n);
-        void addEdge(int u,int v);
-        void bfs(int s);
+public:
+    Graph(int n);
+    void addEdge(int u,int v);
+    void bfs(int s);
 };
 
 Graph::Graph(int n){
